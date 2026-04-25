@@ -1,0 +1,66 @@
+@charset "ISO-8859-1";
+
+/* Corpo */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+}
+
+/* Container */
+.container {
+    width: 80%;
+    margin: auto;
+    background-color: #fff;
+    padding: 20px;
+}
+
+/* Topo */
+.topo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Nome */
+h1 {
+    color: #333;
+}
+
+/* Sessões */
+section {
+    margin-top: 20px;
+}
+
+/* Títulos */
+h2 {
+    border-bottom: 2px solid #ccc;
+    padding-bottom: 5px;
+    color: #444;
+}
+
+/* Texto */
+p {
+    font-size: 14px;
+}
+
+/* Lista */
+ul {
+    list-style-type: square;
+}
+
+/* Foto */
+.foto img {
+    width: 150px;
+    border-radius: 10px;
+}
+
+/* Links */
+a {
+    text-decoration: none;
+    color: #0066cc;
+}
+
+a:hover {
+    text-decoration: underline;
+}

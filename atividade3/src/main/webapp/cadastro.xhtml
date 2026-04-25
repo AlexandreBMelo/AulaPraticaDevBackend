@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://java.sun.com/jsf/html">
+
+<h:head>
+    <title>Cadastro</title>
+    <link rel="stylesheet" type="text/css" href="css/main.css"/>
+</h:head>
+
+<h:body>
+
+    <h:form>
+
+        <h:inputText value="#{pessoa.nome}" />
+
+        <h:commandButton value="Adicionar" action="#{pessoa.adicionar}" />
+
+        <br/><br/>
+
+        <h:dataTable value="#{pessoa.lista}" var="n">
+            <h:column>
+                #{n}
+            </h:column>
+        </h:dataTable>
+
+    </h:form>
+
+</h:body>
+</html>
